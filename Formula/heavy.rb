@@ -1,25 +1,25 @@
 class Heavy < Formula
   desc "A machine-wide counting semaphore for heavy commands: N slots shared by every checkout and agent on one machine"
   homepage "https://github.com/mokevnin/heavy"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mokevnin/heavy/releases/download/v0.1.1/heavy-aarch64-apple-darwin.tar.xz"
-      sha256 "69d5e966845a0ee54b82a464abc471ab6d2702992aa9c2e484a605cb34e2106e"
+      url "https://github.com/mokevnin/heavy/releases/download/v0.1.2/heavy-aarch64-apple-darwin.tar.xz"
+      sha256 "c528c72e49252b5eb8ea76362e0b932710332b16a2d02621fcf9da746f7d35e7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mokevnin/heavy/releases/download/v0.1.1/heavy-x86_64-apple-darwin.tar.xz"
-      sha256 "8b1af6285de3139d069157eff0113702e2038648f9c40e6c28f6eda772b98ed2"
+      url "https://github.com/mokevnin/heavy/releases/download/v0.1.2/heavy-x86_64-apple-darwin.tar.xz"
+      sha256 "ac619d4e0bcde49d1110761b5217491e2f4f46b873e3516936e348b7e90beb0d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/mokevnin/heavy/releases/download/v0.1.1/heavy-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "119b6c16031b8bbd6543e38e63c38ea73886c763331900220432144633135b13"
+      url "https://github.com/mokevnin/heavy/releases/download/v0.1.2/heavy-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8e71812229f2269dd7bacedf27a384a1dc16cfd2d29db5063f523c09a15117b9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mokevnin/heavy/releases/download/v0.1.1/heavy-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "77fa49a29ea5b4727048e301045e8523e86ba0b0fce15751e8d319da6a96ef66"
+      url "https://github.com/mokevnin/heavy/releases/download/v0.1.2/heavy-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "93929e20003a47b77a9c3bdd29a57cbeff85a90af536db8fbd8a1ae63e5cc0ca"
     end
   end
   license "Apache-2.0"
