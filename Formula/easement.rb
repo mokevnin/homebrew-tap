@@ -1,25 +1,25 @@
 class Easement < Formula
   desc "Architecture quality gate for polyglot codebases"
   homepage "https://github.com/mokevnin/easement"
-  version "0.4.6"
+  version "0.4.7"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mokevnin/easement/releases/download/v0.4.6/easement-aarch64-apple-darwin.tar.xz"
-      sha256 "65364e6b00c406b7d1173140bf8acfbdb1bff6ffbd7b70828a21669aa5cd5dc4"
+      url "https://github.com/mokevnin/easement/releases/download/v0.4.7/easement-aarch64-apple-darwin.tar.xz"
+      sha256 "8ca51bd2ab3eca5a056ab7b7465bc7e7e39439309ca74049d04ca8d1d6ad3a13"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mokevnin/easement/releases/download/v0.4.6/easement-x86_64-apple-darwin.tar.xz"
-      sha256 "2ff498176ec59b39d5ee8d8978394bbc0cf837d6db92147d56e5a71d67f25168"
+      url "https://github.com/mokevnin/easement/releases/download/v0.4.7/easement-x86_64-apple-darwin.tar.xz"
+      sha256 "120e38f4e45540be1d6d7c94be820ac5c18f7549cbc492d7d99ddbe1ea7d7fb5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/mokevnin/easement/releases/download/v0.4.6/easement-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5b2664e9e3c7ec8e56c50a537c355c968404cfdea1a20bfee96273cb6a6c2008"
+      url "https://github.com/mokevnin/easement/releases/download/v0.4.7/easement-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8be69da7f6b0a7c2fd2ca5dc20729f8169805b578a68110de6417a5b41524ff1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mokevnin/easement/releases/download/v0.4.6/easement-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e3c8d0699c29873e081eeccdae4df97c4556a9e2a9a4274d24510ea4635f57e1"
+      url "https://github.com/mokevnin/easement/releases/download/v0.4.7/easement-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5534c12e6c1adedaaf4fed12be7c2ef65bd5fb21c284f86d50964036af6920e2"
     end
   end
   license "MIT"
